@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+	<head>
+		<!--
+		Harrison Smith
+		CPT 162 Exam 2
+		-->
+
+		<title>Smith - Cpt 162 Exam 2</title>
+		<link href="styles.css" rel="stylesheet">
+		<script src="confirmationProducts.js" async></script>
+		<meta charset = "utf-8">	
+	</head>
+
+
+	<body>
+		<div class="headLine">
+			<img src="truckerGamer.png"></img>
+			<h1 class = "headTitle">Truckers Who Game</h1>
+			<div class="menu">
+			<ul class= "menuItems">
+				<li><a href="buyProducts.html">Buy Products Page</a>
+				<li><a href="confirmProducts.html">Confirm Products Page</a>
+				<li><a href="playGame.html">Play Game Page</a>
+			</ul>
+		</div>
+		</div>
+		
+		
+		
+		<form name="productForm" id="productForm">
+			<table>
+				<tr>
+					<td>Date of Order</td>
+					<td>Product Name</td>
+					<td>Initial Price</td>
+					<td>Quantity of Product</td>
+					
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="orderDate" id="orderDate" readonly></input>
+					</td>
+					<td>
+						<input type="text" name="productName" id="productName" readonly></input>
+					</td>
+					<td>
+						<input type="text" name="productPrice" id="productPrice" readonly></input>
+					</td>
+					<td>
+						<input type="text" name="productQuantity" id="productQuantity" readonly></input>
+					</td>
+					
+				</tr>
+				<tr>
+					<td>Cost of All Products</td>
+					<td>Sales Tax</td>
+					<td>Final Total</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="costOfAllProducts" id="costOfAllProducts" readonly></input>
+					</td>
+					<td>
+						<input type="text" name="salesTax" id="salesTax" readonly></input>
+					</td>
+					<td>
+						<input type="text" name="finalTotal" id="finalTotal" readonly></input>
+					</td>
+				</tr>
+				
+			</table>
+		</form>
+			
+	</body>
+
+</html>
